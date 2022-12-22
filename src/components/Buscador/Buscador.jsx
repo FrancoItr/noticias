@@ -39,6 +39,7 @@ const Buscador = ({ onBuscar }) => {
                     onClick={() => {
                         onBuscar(criterioBusqueda);
                     }}
+                    role="button"
                 >Buscar</Button>
         </Box>
     );
